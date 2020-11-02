@@ -1,0 +1,19 @@
+.user{
+    padding: 5px;
+    margin-left: 10px;
+}
+
+.avatar img{
+    width: 100px;
+    border-radius: 50%;
+}
+
+.selectedPage{
+    font-weight: bold;
+    color:red;
+}
+
+.unselectedPage{
+    font-weight: normal;
+    color: black;
+}
