@@ -8,7 +8,6 @@ import {TextArea} from "../../Common/formsControlls/formsControlls";
 const maxLength10 = maxLengthCreator(10);
 
 const newPostForm = (props) => {
-
     return (
         <form onSubmit={props.handleSubmit}>
             <div>
@@ -29,7 +28,6 @@ const MyPosts = (props) => {
     let addNewPost = (values) => {
         props.addNewPost(values.newPost);
     }
-
     return (
         <div className={styles.postsBlock}>
             <h2>My posts:</h2>

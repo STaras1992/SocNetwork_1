@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from "./Users.module.css";
-import userPhoto from 'C://Users//stas2//react//react-kabzda-kak-prosto//src//assets//user.png';
+import userPhoto from '../../assets/user.png';
 import {NavLink} from "react-router-dom";
 
 const User = ({user,isFollowingInProgress,followUser,unFollowUser}) => (
